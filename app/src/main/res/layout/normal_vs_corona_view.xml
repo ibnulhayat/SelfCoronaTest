@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/tvSymptom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/select_option_view"
+        android:gravity="center"
+        android:text="লক্ষণ"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="1dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tvCoronaSymptom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:background="@drawable/select_option_view"
+        android:gravity="center"
+        android:text="করোনা ভাইরাস"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tvFeverSymptom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/select_option_view"
+        android:gravity="center"
+        android:text="ঠাণ্ডা জ্বর"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tvFluSymptom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/select_option_view"
+        android:gravity="center"
+        android:text="ফ্লু"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="2dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparent"
+    tools:context=".activity.AboutOfCoronaActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAboutCorona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_1"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSymptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_2"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSpreads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_3"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCoronaInfection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_4"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIllToDO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_5"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRumors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_6"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_7"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_8"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvGovtBD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_9"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/aboutOfMargin"
+                android:background="@drawable/question_option_desing_view"
+                android:padding="@dimen/aboutOfTextPadding"
+                android:text="@string/string_10"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/aboutOfTextSize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:background="#747474"-->
+<!--        app:adSize="SMART_BANNER"-->
+<!--        app:adUnitId="@string/banner_id"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

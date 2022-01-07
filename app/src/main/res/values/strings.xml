@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">সেল্ফ করোনা টেস্ট</string>
+    <!--    <string name="apps_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="initialize_Id">ca-app-pub-7536788003380224~6575580976</string>-->
+
+    <string name="labelNameOne">করোনা পরীক্ষা করুন</string>
+    <string name="labelNameTwo">ইমার্জেন্সি নাম্বার</string>
+    <string name="labelNameThree">ল্যাব এর তালিকা</string>
+    <string name="labelNameFour">করোনা / জ্বর / ফ্লু এর মধ্যে পার্থক্য</string>
+    <string name="labelNameFive">করোনা সংক্রান্ত সেবা কেন্দ্রসমূহ</string>
+    <string name="labelNameSix">করোনা ভাইরাস সংক্রান্ত তথ্য</string>
+    <string name="labelNameSeven">Apps পরিচিতি</string>
+
+    <string name="string_1">১. করোনা ভাইরাস কী?</string>
+    <string name="string_2">২. করোনা ভাইরাসে আক্রান্ত হওয়ার লক্ষণ কী?</string>
+    <string name="string_3">৩. করোনা কিভাবে ছড়ায়?</string>
+    <string name="string_4">৪. করোনা সংক্রমণ ঠেকাতে করণীয়।</string>
+    <string name="string_5">৫. অসুস্থ হলে করণীয় কি?</string>
+    <string name="string_6">৬. করোনা ভাইরাস সম্পর্কে গুজব, আতঙ্ক এবং ভ্রান্তধারনা সমূহ।</string>
+    <string name="string_7">৭. করোনা ভাইরাসের টেস্ট কিট বা পরীক্ষা?</string>
+    <string name="string_8">৮. করোনা ভাইরাস সম্পর্কে বিশেষজ্ঞ ডাক্তারদের পরামর্শ।</string>
+    <string name="string_9">৯. বাংলাদেশ সরকারের উদ্যোগ।</string>
+    <string name="string_10">১০. তথ্য।</string>
+
+    <string name="iedcr">আইইডিসিআর-এর হটলাইন</string>
+    <string name="coronaControl">করোনা নিয়ন্ত্রণ কক্ষ- </string>
+    <string name="otherHotline">হটলাইন নাম্বার- </string>
+    <string name="coronaHospitalList">যেসব হাসপাতালে করোনা সংক্রান্ত সেবা প্রদান করা হয়ঃ</string>
+    <string name="coronaTestingLabList">করোনা পরীক্ষার জন্য ১৭ টি ল্যাবের তালিকা</string>
+    <string name="questionString">এই লক্ষণ পরীক্ষকটির লক্ষ্য সচেতনতা বাড়াতে এবং করোনভাইরাস দ্বারা আক্রান্ত হওয়ার বিষয়ে আপনার চিন্তিত হওয়া উচিত কিনা তা নির্ধারণ সহায়তা করা।
+        অনুগ্রহ পূর্বক কিছুটা সময় দিন………
+        আপনার সুস্থতা আমাদের কাম্য</string>
+    <string name="result">ফলাফল:</string>
+    <string name="low">কোভিড-১৯ থাকার ঝুঁকি <font fgcolor='#008000'><b> কম </b></font></string>
+    <string name="normal">কোভিড-১৯ থাকার ঝুঁকি <font fgcolor='#FFFF00'> <b>মাঝামাঝি </b></font></string>
+    <string name="high">কোভিড-১৯ থাকার ঝুঁকি <font fgcolor='#FF0000'><b> বেশী </b></font></string>
+    <string name="message">*** অ্যাপ এর সাহায্যে আগামীকাল আবার আপনার স্বাস্থ্য পরীক্ষা করুন এবং আপনার শরীরে কোভিড-১৯ ঝুঁকি সম্পর্কে অবগত হোন। </string>
+    <string name="message_one">আপনি চাইলে প্রাথমিক চিকিৎসার জন্য চিকিৎসকের সাথে যোগাযোগ করতে পারেন।</string>
+    <string name="message_two">আপনি একজন বিশেষজ্ঞ ডাক্তারের সাথে এখনই যোগাযোগ করুন।</string>
+    <string name="message_three">আপনার করোনা ভাইরাসে আক্রান্ত হওয়ার সম্ভাবনা রয়েছে। আপনি দ্রুত করোনা নিরাময় কেন্দ্রের পরামর্শ নিন।</string>
+
+    <string name="division_One">ঢাকা বিভাগের জন্য</string>
+    <string name="division_Two">চট্টগ্রাম বিভাগের জন্য</string>
+    <string name="division_Three">রাজশাহী বিভাগের জন্য</string>
+    <string name="division_Four">খুলনা বিভাগের জন্য</string>
+    <string name="division_Five">বরিশাল বিভাগের জন্য</string>
+    <string name="division_Six">সিলেট বিভাগের জন্য</string>
+    <string name="division_Seven">রংপুর বিভাগের জন্য</string>
+    <string name="division_Eight">ময়মনসিংহ বিভাগের জন্য</string>
+
+</resources>
